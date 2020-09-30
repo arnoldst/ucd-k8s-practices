@@ -34,6 +34,6 @@ Should be able to use the EFK stack to get at agent and server logs.
 # Integration with tekton
 Tekton handover to ucd, (maybe velocity?)
 
-
+AFAIK there is no Tekton plugin available for ucd nor velocity. possibly in development -> will ask.
 
 
