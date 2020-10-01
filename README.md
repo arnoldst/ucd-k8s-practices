@@ -9,6 +9,10 @@ Other topologies are available, in particular using the DB2 Cloud Service (https
 
 # Scaling the UCD server - horizontally and vertically
 Discussion on scaling the ucd server stateful set to get more instances. (does this actually work - how does the server know ?)  
+FOUND this information on Knowledgecenter (for 7.1.x): 
+ * Scaling the Server: https://www.ibm.com/support/knowledgecenter/SS4GSP_7.1.0/com.ibm.udeploy.install.doc/topics/docker_scale.html
+ * Scaling the Frontend: https://www.ibm.com/support/knowledgecenter/SS4GSP_7.1.0/com.ibm.udeploy.install.doc/topics/scaling_dfe_cluster.html
+ 
 How do you configure memory size in the tomcat server - are there environment properties/ config maps that you need to do ?
 
 ## Challenges for scaling
