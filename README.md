@@ -1,8 +1,11 @@
 # ucd-k8s-practices
 
 # Installation on Openshift
-Refer to the other gut hib repo and instructions.
+If you're installing UrbanCode Deploy (UCD) onto IBMs Redhat Openshift Kuberbetes Service(ROKS), then you can use the automated install scripts from this git repository to create a single ucd server using mysql, all running inside Openshift.
 https://github.com/arnoldst/ucd-install-on-roks
+
+Other topologies are available, in particular using the DB2 Cloud Service (https://cloud.ibm.com/catalog/services/db2) to provide a managed database solution, whilst hosting the UCD application inside Openshift.  
+
 
 # Scaling the UCD server - horizontally and vertically
 Discussion on scaling the ucd server stateful set to get more instances. (does this actually work - how does the server know ?)  
